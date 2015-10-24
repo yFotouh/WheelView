@@ -155,7 +155,7 @@ public class WheelView extends View {
     private List<ItemState> mItemStates;
     private int mAdapterItemCount;
 
-    private boolean mIsDraggingWheel;
+    public boolean mIsDraggingWheel;
     private float mLastTouchAngle;
     private ItemState mClickedItem;
     private float mDraggedAngle;
